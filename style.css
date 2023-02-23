@@ -1,0 +1,134 @@
+:root{
+  --main-c:#2196f3;
+}
+*{
+  box-sizing: border-box;
+    margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.game{
+  min-height: 100vh;
+  background-color: #eee;
+}
+.container{
+  margin: auto;
+  max-width: 900px;
+}
+.name{
+  background-color: var(--main-c);
+  color: white;
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1.4px;
+}
+.massage{
+  background-color: white;
+  padding: 15px;
+  margin: 15px 0px;
+  text-align: center;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  font-size: 18px;
+  color: rgb(20, 20, 20);
+}
+
+.massage span{
+  font-weight: bold;
+  color: #1c2a7a;
+}
+.massage span::before{
+  content: '[ ';
+}
+.massage span::after{
+  content: ' ]';
+}
+.start{
+  font-weight: bold;
+  text-align: center;
+  background-color: #f22f2f;
+  font-size: 20px;
+  color: white;
+  padding: 6px 12px;
+  cursor: pointer;
+  width: 33%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.the-word{
+  color: var(--main-c);
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  user-select: none;  
+}
+input{
+  margin: 22px 0px;
+  width: 100%;
+  padding: 16px;
+  border: 3px solid var(--main-c);
+  font-size: 24px;
+  outline: none;
+  text-align: center;
+  text-transform: capitalize;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.upcoming{
+  background-color: white;
+  padding: 20px;
+  margin: 15px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.upcoming div{
+  background-color: #2196f3;
+  color: #fff;
+  margin: 4px;
+  padding: 10px;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: capitalize;
+}
+.control{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 15px;
+}
+.control span{
+  font-weight: bold;
+  background-color: #f22f2f;
+  font-size: 18px;
+}
+.finish{
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  padding: 15px;
+}
+.finish .good{
+  color: var(--main-c);
+}
+.finish .bad{
+  color: #b80000;
+}
