@@ -15,3 +15,9 @@ Steps Of The Project
       --[6] on start click functionalty       #done
       --[7] make function that generate random array of word and put the data into html #done
       --[8] make play function countdown        #done
+      --[10] save score and date in local storage  
+      --[11] make user chose the level
+      --[12] make for ever level array of words
+      --[13] break the function to make it more simple
+      --[14] box for instractions dynamic
+      --[15] add more 3seconds in first word  
