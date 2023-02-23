@@ -43,7 +43,7 @@ body{
 
 .massage span{
   font-weight: bold;
-  color: #1c2a7a;
+  color: #263ec7;
 }
 .massage span::before{
   content: '[ ';
@@ -117,8 +117,9 @@ input{
 }
 .control span{
   font-weight: bold;
-  background-color: #f22f2f;
+  color: #f22f2f;
   font-size: 18px;
+  /* padding: 10px; */
 }
 .finish{
   font-weight: bold;

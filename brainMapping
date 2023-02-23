@@ -10,3 +10,8 @@ Steps Of The Project
       --[1] set random array of words         #done
       --[2] set levels and set default level  #done
       --[3] catch the selectors               #done
+      --[4] fill the dynamic data by js       #done
+      --[5] remove paste event by js          #done
+      --[6] on start click functionalty       #done
+      --[7] make function that generate random array of word and put the data into html #done
+      --[8] make play function countdown        #done
