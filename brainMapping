@@ -4,6 +4,9 @@ Advices
   -- Take Your Time When You Names
 
 Steps Of The Project
-  --[1] Create HTML Markup             #done
-  --[2] Add The Style                  #done
+  --[1] Create HTML Markup                    #done
+  --[2] Add The Style                         #done
   --[3] Create App Logic 
+      --[1] set random array of words         #done
+      --[2] set levels and set default level  #done
+      --[3] catch the selectors               #done
